@@ -97,13 +97,21 @@
                     </div>
                     <span id="name_err" class="text-danger"></span><br>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="email" id="user_email" placeholder="Your Email">
+                        <input type="text" class="form-control" name="phoneno" id="user_phno" placeholder="Your Phone Number">
+                    </div>
+                    <span id="phno_err" class="text-danger"></span><br>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="emailid" id="user_email" placeholder="Your Email">
                     </div>
                     <span id="email_err" class="text-danger"></span><br>
                     <div class="form-group">
                         <input type="password" class="form-control" name="password" id="user_pwd" placeholder="Your Password">
                     </div>
                     <span id="password_err" class="text-danger"></span><br>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="confpassword" id="user_pwd1" placeholder="Confirm Password">
+                    </div>
+                    <span id="passwordconfirm_err" class="text-danger"></span><br>
                     
                     <input type="submit" class="btn btn-outline-light" name="regbut" style="width:100px;" value="Register" onclick="validateForm()"><br>
                     
