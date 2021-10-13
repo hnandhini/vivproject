@@ -90,7 +90,12 @@
                 <label class="heading-font"> Registration </label><br>
                 
                 <form method="POST" action="registerfetch.php">
-                <label for="choose">Select:</label>  
+                <label for="choose">Select:</label>
+                    <select name="usertype">
+                    <option value="Select your usertype">Select your usertype</option>
+                        <option value="customer">Customer</option>
+                        <option value="delivery">Delivery Staff</option>
+                    </select>  
                     <br> <br> 
                     <div class="form-group">
                         <input type="text" class="form-control" name="name" id="user_name" placeholder="Your Name">
